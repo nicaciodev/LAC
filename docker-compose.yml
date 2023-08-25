@@ -1,0 +1,40 @@
+networks:
+  lacinter:
+    driver: bridge
+
+services:
+  lac-oldap:
+    image: robsonnicacio/lac-oldap:1.0
+    hostname: lac-oldap.tst
+    container_name: lacoldap
+    networks:
+      - lacinter
+    ports:
+      - 2080:80
+      
+#  lac-ts:
+#    image: criando_ainda
+#    container_name: lac
+#    networks:
+#      - lacinter    
+
+  serv-teste01:
+    image: robsonnicacio/lac-servs_teste:1
+    hostname: serv01
+    container_name: serv01
+    networks:
+      - lacinter
+
+  serv-teste02:
+    image: robsonnicacio/lac-servs_teste:2
+    hostname: serv02
+    container_name: serv02
+    networks:
+      - lacinter
+      
+  serv-teste03:
+    image: robsonnicacio/lac-servs_teste:3
+    hostname: serv03
+    container_name: serv03
+    networks:
+      - lacinter      
