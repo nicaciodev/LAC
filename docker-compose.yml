@@ -12,11 +12,12 @@ services:
     ports:
       - 2080:80
       
-#  lac-ts:
-#    image: criando_ainda
-#    container_name: lac
-#    networks:
-#      - lacinter    
+  lac-ts:
+    image: robsonnicacio/lac-ts:1
+    hostname: lac
+    container_name: lac
+    networks:
+      - lacinter    
 
   serv-teste01:
     image: robsonnicacio/lac-servs_teste:1
