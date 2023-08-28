@@ -21,6 +21,8 @@ ssh-keygen -f ~/.ssh/known_hosts -R $ipserv03 ;\
 echo "\
 ===[ Instruções ]====================================================================== 
 
+    Esta é uma demontração de um sistema de controle de login para servidores linux,
+baseado em código livre.
     Para acessar o gerenciador [LAC], acesse em seu navegador:
 <localhost:2080>.
 
@@ -32,10 +34,17 @@ e tente logar com um dos usuários listados no [Gerenciador LAC] <localhost:2080
     serv02 = $ipserv02
     serv03 = $ipserv03
     
+    Por exemplo: ssh teste01@$ipserv01
+    Inicialmente todas as senhas são: [ok]
+    
     Por fim, para finalizar esta demonstração do [LAC], execute:
     docker-compose down
     
-    Obrigado por testar.
+    Obrigado por testar!
+    
+    Autores:
+    Robson Nicácio: <https://www.linkedin.com/in/robson-nicacio/>.
+    Paulo Rolney: <https://www.linkedin.com/in/paulo-rolney/>.
     
 ----------------------------------------------------------------------------------------    
 "
