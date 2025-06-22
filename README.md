@@ -1,7 +1,8 @@
 ![LAC](https://github.com/I-Nicacio-I/LAC/blob/main/imagens/LAC-readme.png?raw=true)
 
 Esta é uma demontração de um sistema de controle de login para servidores linux, baseado em código livre.
-#![Static Badge](https://img.shields.io/badge/Vers%C3%A3o-1.0-blue) ![GitHub](https://img.shields.io/github/license/I-Nicacio-I/LAC) ![Static Badge](https://img.shields.io/badge/Data-28%2F08%2F2023-green)
+
+![Static Badge](https://img.shields.io/badge/Vers%C3%A3o-1.0-blue) ![GitHub](https://img.shields.io/github/license/I-Nicacio-I/LAC) ![Static Badge](https://img.shields.io/badge/Data-28%2F08%2F2023-green)
 
 
 
